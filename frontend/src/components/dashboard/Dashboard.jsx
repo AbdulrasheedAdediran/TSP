@@ -24,7 +24,7 @@ function Dashboard() {
     ];
     return (
         <section className="dashboard">
-            <h1>The Startup Place DApp</h1>
+            <h1>The Startup Place DApp deployed to Polygon Mumbai Testnet</h1>
             {connected ? (
                  <div>
  <ul className="cards">
