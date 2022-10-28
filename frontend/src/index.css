@@ -1,0 +1,64 @@
+*, *::after, *::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  /* display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column; */
+  background-color: #000;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+  list-style: none;
+}
+
+button{
+  background: rgb(108, 4, 4);
+  padding: 1rem 2rem;
+  border: none;
+  font: inherit;
+  color: inherit;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover{
+  background: rgb(108, 4, 4, 0.85);
+
+}
+
+.navbar { 
+   display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+.dashboard{
+  display: grid;
+  place-items: center;
+  height: 100%;
+  row-gap: 2rem;
+}
+.cards{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height:100%;
+  width: 100%; 
+  align-content: center; 
+}
+.dashboard-card h3, p, button{
+  margin-bottom: 2rem;
+}
+
+
+
